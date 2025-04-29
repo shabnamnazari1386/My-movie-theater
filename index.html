@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Shabnam's Theater 😊</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="media/trailer.mp4.mp4" rel="stylesheet">
+
+    </head>
+    <body style="background-color: pink;">
+        <section class="theater">
+            <h1 class="theater-name"> Welcome TO Shabnam's Theater 🎥🍿</h1>
+            <div class="screen">
+                <video id="trailer" controls>
+                    <source src="media/trailer.mp4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <section class="movie-info">
+                <h2> About the Movie</h2>
+                <p> Director : Shabnam Nazari<br> Rlease: 2025 <br> Genre: vlog</p>
+
+            </section>
+            <div class="controls">
+                <button onclick="playAgain"()> Play Again</button>
+                <button onclick="rateMove"()>⭐ Rate move </button>
+
+
+            </div>
+        </section>
+        <script>
+            function playAgain() {
+                const video = document . getElementById('trailer');
+                video. currentTime = 0;
+                video. play();
+            }
+            function rateMove() {
+                let rating = prompt(" Rate the movie !");
+                if (rating ) {
+                    alret( 'Thanks for rating us ${ rating } stars!');
+                }
+
+            }
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,59 @@
+ body{
+    margin: 0;
+    padding:0;
+    background-color: liner-gradiant(to button, pink, gray);
+    font-family: 'Quicksand', sans-serif;
+    color:blueviolet;
+    text-align: center;
+ }
+ theater{
+    padding: 40px;
+ }
+ h1{ 
+    font-family: 'pacifico', cursive;
+    font-size: 2.9em;
+    color:gray;
+    text-shadow: 0 0 9px #1d96ca;
+    margin-bottom: 35px;
+ }
+ marquee{
+    color:rgb(239, 29, 183);
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    font-weight: bold;
+ }
+ screen{
+    border: 10px solid pink;
+    box-shadow: 0 0 25px pink, 0 0 50px pink;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: aliceblue;
+    border-radius:20px ;
+ }
+video{
+    width: 100%;
+    border-radius: 10px;
+}
+controls{
+    margin-top: 20px;
+}
+button{
+    background: linear-gradient(to right, rgb(10, 173, 232),rgb(30, 87, 210));
+    border: none;
+    padding: 12px 25px;
+    margin: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 30px;
+    color:black;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(red, green, blue, alpha);
+    transition: all 0.3s ease
+
+}
+button:hover{
+    background: linear-gradient(to right, pink, gray);
+    box-shadow: 0 6px 20px rgba(red, green, blue, alpha);
+    transform: scale(1,05);
+}
